@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:EmoReq_profile="http:///schemas/EmoReq_profile/_Eub68MRfEfC_-4XFnVoIxw/32" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/EmoReq_profile/_Eub68MRfEfC_-4XFnVoIxw/32 EmoReq_profile.profile.uml#_Eub68cRfEfC_-4XFnVoIxw">
+  <uml:Model xmi:id="_GAdtsLpSEfCECJPejcET8g" name="">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_GA5ykLpSEfCECJPejcET8g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_X7_fILpSEfCECJPejcET8g" name="System"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZLrlYLpSEfCECJPejcET8g" name="Student"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_itbBYLpSEfCECJPejcET8g" name="ServiceProvider"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mCv-cLpSEfCECJPejcET8g" name="Learner"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_urOQILpSEfCECJPejcET8g" client="_X7_fILpSEfCECJPejcET8g" supplier="_itbBYLpSEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OnEk4LpXEfCECJPejcET8g" name="Anxious"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bFWqgLpXEfCECJPejcET8g" name="Frustrated"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rorS4LpXEfCECJPejcET8g" name="Trustful"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wPGrcLpXEfCECJPejcET8g" name="Confident"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6EYHcLpXEfCECJPejcET8g" name="Reliably"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AprAcLpYEfCECJPejcET8g" name="Clearly"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Jtz6cLpYEfCECJPejcET8g" name="DeliverCourseContent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_P0BDsLpYEfCECJPejcET8g" name="RegisterForCourse"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Ul6FYLpYEfCECJPejcET8g" client="_rorS4LpXEfCECJPejcET8g" supplier="_OnEk4LpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_WKCxoLpYEfCECJPejcET8g" client="_wPGrcLpXEfCECJPejcET8g" supplier="_bFWqgLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_X9QbsLpYEfCECJPejcET8g" client="_ZLrlYLpSEfCECJPejcET8g" supplier="_bFWqgLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_arfjkLpYEfCECJPejcET8g" client="_X7_fILpSEfCECJPejcET8g" supplier="_OnEk4LpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_cqEJELpYEfCECJPejcET8g" client="_X7_fILpSEfCECJPejcET8g" supplier="_rorS4LpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_e36gsLpYEfCECJPejcET8g" client="_ZLrlYLpSEfCECJPejcET8g" supplier="_wPGrcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_hCQ4YLpYEfCECJPejcET8g" client="_Jtz6cLpYEfCECJPejcET8g" supplier="_6EYHcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_iwkNQLpYEfCECJPejcET8g" client="_P0BDsLpYEfCECJPejcET8g" supplier="_AprAcLpYEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_kwvVQLpYEfCECJPejcET8g" client="_6EYHcLpXEfCECJPejcET8g" supplier="_rorS4LpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_mM2G4LpYEfCECJPejcET8g" client="_AprAcLpYEfCECJPejcET8g" supplier="_wPGrcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_o988kLpYEfCECJPejcET8g" client="_P0BDsLpYEfCECJPejcET8g" supplier="_wPGrcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_rtH4kLpYEfCECJPejcET8g" client="_Jtz6cLpYEfCECJPejcET8g" supplier="_rorS4LpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_wH2XcLpYEfCECJPejcET8g" client="_X7_fILpSEfCECJPejcET8g" supplier="_6EYHcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_W2DtoLpZEfCECJPejcET8g" client="_X7_fILpSEfCECJPejcET8g" supplier="_Jtz6cLpYEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Y7LnELpZEfCECJPejcET8g" client="_ZLrlYLpSEfCECJPejcET8g" supplier="_P0BDsLpYEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Ipi4QLrgEfCszIdGw0kn_w" client="_ZLrlYLpSEfCECJPejcET8g" supplier="_mCv-cLpSEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BWFfYMCLEfCI4u17sHUsNA" name="SubmitAssignment"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J5UrwMCLEfCI4u17sHUsNA" name="ProvideFeedback"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tOvhMMCLEfCI4u17sHUsNA" client="_X7_fILpSEfCECJPejcET8g" supplier="_J5UrwMCLEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_xR-GEMCLEfCI4u17sHUsNA" client="_ZLrlYLpSEfCECJPejcET8g" supplier="_BWFfYMCLEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_82xmAMCLEfCI4u17sHUsNA" client="_BWFfYMCLEfCI4u17sHUsNA" supplier="_AprAcLpYEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BcUNwMCMEfCI4u17sHUsNA" name="Timely"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_J6Vi8MCMEfCI4u17sHUsNA" client="_J5UrwMCLEfCI4u17sHUsNA" supplier="_BcUNwMCMEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_c9jVMMCMEfCI4u17sHUsNA" name="Motivated"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_sKbIAMCMEfCI4u17sHUsNA" client="_BWFfYMCLEfCI4u17sHUsNA" supplier="_c9jVMMCMEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_vJndAMCMEfCI4u17sHUsNA" client="_J5UrwMCLEfCI4u17sHUsNA" supplier="_c9jVMMCMEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_3xl_cMCMEfCI4u17sHUsNA" client="_BcUNwMCMEfCI4u17sHUsNA" supplier="_c9jVMMCMEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_M_8MgMCNEfCI4u17sHUsNA" client="_ZLrlYLpSEfCECJPejcET8g" supplier="_c9jVMMCMEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UroF0MCNEfCI4u17sHUsNA" name="Overwhelmed"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_bkeM8MCNEfCI4u17sHUsNA" client="_ZLrlYLpSEfCECJPejcET8g" supplier="_UroF0MCNEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_k9g_8MCNEfCI4u17sHUsNA" client="_c9jVMMCMEfCI4u17sHUsNA" supplier="_UroF0MCNEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Nbp7UMCREfCI4u17sHUsNA" client="_Jtz6cLpYEfCECJPejcET8g" supplier="_wPGrcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__-WMMMCREfCI4u17sHUsNA" client="_6EYHcLpXEfCECJPejcET8g" supplier="_wPGrcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7aWAEMCSEfCI4u17sHUsNA" name="SelectCourse"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DgKQoMCTEfCI4u17sHUsNA" name="ConfirmRegistration"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_PHvXwMCTEfCI4u17sHUsNA" client="_P0BDsLpYEfCECJPejcET8g" supplier="_DgKQoMCTEfCI4u17sHUsNA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_S8V1UMCUEfCI4u17sHUsNA" client="_7aWAEMCSEfCI4u17sHUsNA" supplier="_AprAcLpYEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ddijMMCUEfCI4u17sHUsNA" client="_DgKQoMCTEfCI4u17sHUsNA" supplier="_6EYHcLpXEfCECJPejcET8g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_O_Xq4MnTEfCzuKsEC-IQlQ" client="_P0BDsLpYEfCECJPejcET8g" supplier="_7aWAEMCSEfCI4u17sHUsNA"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OwIzkLpSEfCECJPejcET8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JzifMMnTEfCzuKsEC-IQlQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzifMcnTEfCzuKsEC-IQlQ" key="Version" value="0.0.33"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzifMsnTEfCzuKsEC-IQlQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzifM8nTEfCzuKsEC-IQlQ" key="Copyright" value="Eldaniz Akbarzade"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzifNMnTEfCzuKsEC-IQlQ" key="Date" value="2025-11-18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzifNcnTEfCzuKsEC-IQlQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OwNFALpSEfCECJPejcET8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="EmoReq_profile.profile.uml#_Eub68cRfEfC_-4XFnVoIxw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="EmoReq_profile.profile.uml#_j1-QwLpFEfCECJPejcET8g"/>
+    </profileApplication>
+  </uml:Model>
+  <EmoReq_profile:Agent xmi:id="_rQtRELpSEfCECJPejcET8g" name="OnlineLearningSystem" type="Software" base_Class="_X7_fILpSEfCECJPejcET8g"/>
+  <EmoReq_profile:Agent xmi:id="_sHSTwLpSEfCECJPejcET8g" name="Student" base_Class="_ZLrlYLpSEfCECJPejcET8g"/>
+  <EmoReq_profile:Role xmi:id="_tBt7sLpSEfCECJPejcET8g" name="ServiceProvider" responsibility="Provides learning materials and manages the platform’s operation." base_Class="_itbBYLpSEfCECJPejcET8g"/>
+  <EmoReq_profile:Role xmi:id="_t2F-8LpSEfCECJPejcET8g" name="Learner" responsibility="Enrolls in and completes online courses." base_Class="_mCv-cLpSEfCECJPejcET8g"/>
+  <EmoReq_profile:plays xmi:id="_viEYkLpSEfCECJPejcET8g" base_Dependency="_urOQILpSEfCECJPejcET8g"/>
+  <EmoReq_profile:NegativeEmotionalGoal xmi:id="_YdNjkLpXEfCECJPejcET8g" description="User feels worried about losing progress or system instability" base_Class="_OnEk4LpXEfCECJPejcET8g" EmotionType="Anxiety"/>
+  <EmoReq_profile:NegativeEmotionalGoal xmi:id="_eB6iQLpXEfCECJPejcET8g" description="User feels confused or stuck due to unclear steps or errors." base_Class="_bFWqgLpXEfCECJPejcET8g"/>
+  <EmoReq_profile:EmotionalGoal xmi:id="_suKUQLpXEfCECJPejcET8g" description="The user feels trust in the platform’s reliability and performance" base_Class="_rorS4LpXEfCECJPejcET8g"/>
+  <EmoReq_profile:EmotionalGoal xmi:id="_xMjyMLpXEfCECJPejcET8g" description="The user feels confident and capable while interacting with the platform" base_Class="_wPGrcLpXEfCECJPejcET8g" EmotionType="Functional"/>
+  <EmoReq_profile:QualityGoal xmi:id="_67mqYLpXEfCECJPejcET8g" description="Course content should be delivered without delays or technical failures." base_Class="_6EYHcLpXEfCECJPejcET8g"/>
+  <EmoReq_profile:QualityGoal xmi:id="_BxztMLpYEfCECJPejcET8g" description="Registration and instructions should be clear and easy to follow" base_Class="_AprAcLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:FunctionalGoal xmi:id="_Keo6cLpYEfCECJPejcET8g" description="Provide course materials and lessons to the student." base_Class="_Jtz6cLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:FunctionalGoal xmi:id="_RDRFELpYEfCECJPejcET8g" description="Allow the student to register for a selected online course." base_Class="_P0BDsLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:conflictsWith xmi:id="_VVyqMLpYEfCECJPejcET8g" base_Dependency="_Ul6FYLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:conflictsWith xmi:id="_XCsQ4LpYEfCECJPejcET8g" base_Dependency="_WKCxoLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:avoids xmi:id="_Yp9JoLpYEfCECJPejcET8g" base_Dependency="_X9QbsLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:avoids xmi:id="_bZsGULpYEfCECJPejcET8g" base_Dependency="_arfjkLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:desires xmi:id="_dRXZoLpYEfCECJPejcET8g" base_Dependency="_cqEJELpYEfCECJPejcET8g"/>
+  <EmoReq_profile:desires xmi:id="_fqWqQLpYEfCECJPejcET8g" base_Dependency="_e36gsLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:constrainedBy xmi:id="_hxpG4LpYEfCECJPejcET8g" base_Dependency="_hCQ4YLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:constrainedBy xmi:id="_jb_I0LpYEfCECJPejcET8g" base_Dependency="_iwkNQLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:contributes xmi:id="_leaTkLpYEfCECJPejcET8g" base_Dependency="_kwvVQLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:contributes xmi:id="_m131wLpYEfCECJPejcET8g" base_Dependency="_mM2G4LpYEfCECJPejcET8g"/>
+  <EmoReq_profile:supports xmi:id="_p8BHULpYEfCECJPejcET8g" base_Dependency="_o988kLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:supports xmi:id="_seiHYLpYEfCECJPejcET8g" base_Dependency="_rtH4kLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:expects xmi:id="_w0ZUYLpYEfCECJPejcET8g" base_Dependency="_wH2XcLpYEfCECJPejcET8g"/>
+  <EmoReq_profile:aims xmi:id="_YD72ALpZEfCECJPejcET8g" base_Dependency="_W2DtoLpZEfCECJPejcET8g"/>
+  <EmoReq_profile:aims xmi:id="_Zq2wgLpZEfCECJPejcET8g" base_Dependency="_Y7LnELpZEfCECJPejcET8g"/>
+  <EmoReq_profile:plays xmi:id="_JwX9cLrgEfCszIdGw0kn_w" base_Dependency="_Ipi4QLrgEfCszIdGw0kn_w"/>
+  <EmoReq_profile:FunctionalGoal xmi:id="_DPKg4MCLEfCI4u17sHUsNA" description="Enable the student to upload and submit completed assignments" base_Class="_BWFfYMCLEfCI4u17sHUsNA"/>
+  <EmoReq_profile:FunctionalGoal xmi:id="_OYUmoMCLEfCI4u17sHUsNA" description="Deliver feedback and grades to the student after each submission" base_Class="_J5UrwMCLEfCI4u17sHUsNA"/>
+  <EmoReq_profile:aims xmi:id="_uOK94MCLEfCI4u17sHUsNA" base_Dependency="_tOvhMMCLEfCI4u17sHUsNA"/>
+  <EmoReq_profile:aims xmi:id="_yFvsYMCLEfCI4u17sHUsNA" base_Dependency="_xR-GEMCLEfCI4u17sHUsNA"/>
+  <EmoReq_profile:constrainedBy xmi:id="_9mhn8MCLEfCI4u17sHUsNA" base_Dependency="_82xmAMCLEfCI4u17sHUsNA"/>
+  <EmoReq_profile:QualityGoal xmi:id="_DXI7sMCMEfCI4u17sHUsNA" description="Ensure that feedback is provided within the expected time frame" base_Class="_BcUNwMCMEfCI4u17sHUsNA"/>
+  <EmoReq_profile:constrainedBy xmi:id="_Km340MCMEfCI4u17sHUsNA" base_Dependency="_J6Vi8MCMEfCI4u17sHUsNA"/>
+  <EmoReq_profile:EmotionalGoal xmi:id="_fPp6sMCMEfCI4u17sHUsNA" description="User feels motivated to continue engaging with the course" base_Class="_c9jVMMCMEfCI4u17sHUsNA" EmotionType="Functional"/>
+  <EmoReq_profile:supports xmi:id="_uJtfMMCMEfCI4u17sHUsNA" base_Dependency="_sKbIAMCMEfCI4u17sHUsNA"/>
+  <EmoReq_profile:supports xmi:id="_v5yVsMCMEfCI4u17sHUsNA" base_Dependency="_vJndAMCMEfCI4u17sHUsNA"/>
+  <EmoReq_profile:contributes xmi:id="_4okqwMCMEfCI4u17sHUsNA" base_Dependency="_3xl_cMCMEfCI4u17sHUsNA"/>
+  <EmoReq_profile:desires xmi:id="_NyrRAMCNEfCI4u17sHUsNA" base_Dependency="_M_8MgMCNEfCI4u17sHUsNA"/>
+  <EmoReq_profile:NegativeEmotionalGoal xmi:id="_YR0JYMCNEfCI4u17sHUsNA" description="User feels overloaded by excessive workload or complex materials" base_Class="_UroF0MCNEfCI4u17sHUsNA"/>
+  <EmoReq_profile:avoids xmi:id="_dLJP0MCNEfCI4u17sHUsNA" base_Dependency="_bkeM8MCNEfCI4u17sHUsNA"/>
+  <EmoReq_profile:conflictsWith xmi:id="_mBxSQMCNEfCI4u17sHUsNA" base_Dependency="_k9g_8MCNEfCI4u17sHUsNA"/>
+  <EmoReq_profile:supports xmi:id="_PFzwAMCREfCI4u17sHUsNA" base_Dependency="_Nbp7UMCREfCI4u17sHUsNA"/>
+  <EmoReq_profile:contributes xmi:id="_CDPcIMCSEfCI4u17sHUsNA" base_Dependency="__-WMMMCREfCI4u17sHUsNA"/>
+  <EmoReq_profile:FunctionalGoal xmi:id="_AFmOQMCTEfCI4u17sHUsNA" description="Let the student choose a course from the list." base_Class="_7aWAEMCSEfCI4u17sHUsNA"/>
+  <EmoReq_profile:FunctionalGoal xmi:id="_GOgGMMCTEfCI4u17sHUsNA" description="Enable the student to confirm course registration" base_Class="_DgKQoMCTEfCI4u17sHUsNA"/>
+  <EmoReq_profile:andDecomposition xmi:id="_TkTpsMCTEfCI4u17sHUsNA" base_Dependency="_PHvXwMCTEfCI4u17sHUsNA"/>
+  <EmoReq_profile:constrainedBy xmi:id="_TtT_QMCUEfCI4u17sHUsNA" base_Dependency="_S8V1UMCUEfCI4u17sHUsNA"/>
+  <EmoReq_profile:constrainedBy xmi:id="_fUFOEMCUEfCI4u17sHUsNA" base_Dependency="_ddijMMCUEfCI4u17sHUsNA"/>
+  <EmoReq_profile:andDecomposition xmi:id="_QPZIUMnTEfCzuKsEC-IQlQ" base_Dependency="_O_Xq4MnTEfCzuKsEC-IQlQ"/>
+</xmi:XMI>
