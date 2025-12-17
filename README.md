@@ -145,4 +145,52 @@ After completing your model:
 3. Choose **Validate Model**
 
 The validation results will be shown in the **Model Validation** view.
+
+---
+## 🔍 Scope and Limitations
+
+This project focuses on **conceptual modeling and validation** of emotional requirements using UML and OCL.  
+It does **not** include software implementation, runtime analysis, or empirical user studies.
+
+The EmoReq UML Profile is intended to support **early design and requirements analysis**, not system execution or simulation.
+
+## 👥 Intended Audience
+
+This project is intended for:
+- Researchers and students in **Requirements Engineering**
+- UML and **model-driven engineering** practitioners
+- Designers interested in **emotional and user-centered requirements**
+- Users working with **Eclipse Papyrus and OCL**
+
+## ⚠️ Notes and Known Issues
+
+- Always open models using the **`.di`** file, not the `.uml` file
+- Ensure the **EmoReq_profile** is applied before validation
+- Validation results depend on Papyrus OCL configuration
+- Diagram layout may vary depending on Eclipse/Papyrus version
+
+## 👤 Author
+
+**Eldaniz Akbarzade**  
+Master’s Student – Software Engineering  
+University of Tartu
+
+## 📄 License
+
+This repository contains materials related to my Master’s thesis:
+
+> *An Approach for Modeling and Analyzing Emotional Requirements*
+
+The thesis and its associated artifacts are made publicly available under the  
+**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International (CC BY-NC-ND 4.0)** license.
+
+This means:
+- The work may be **shared and redistributed** for **non-commercial and academic purposes**
+- **No derivative works** or modifications are permitted
+- **Commercial use is not allowed**
+
+The author retains full copyright.  
+A non-exclusive licence has been granted to the **University of Tartu** to reproduce and make the thesis publicly available through its digital archives, in accordance with university regulations.
+
+
   
